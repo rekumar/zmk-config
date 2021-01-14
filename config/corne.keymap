@@ -39,9 +39,9 @@
 // | SHFT |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | SHFT |
 //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
                         bindings = <
-   &kp Z &kp Q      &kp W &kp F  &kp P      &kp G      &kp J &kp L  &kp U         &kp Y   &kp SCLN &kp Z
-   &kp Z &hm LGUI A &kp R &hm LCTRL S &kp T  &kp D      &kp H &kp N  &hm RCTRL E    &kp I   &hm RGUI O    &kp Z
-   &kp Z &hm LALT Z &kp X &kp C  &kp V      &kp B      &kp K &kp M  &kp CMMA      &kp DOT &hm RALT FSLH &kp Z
+   &kp Z &kp Q      &kp W &kp E  &kp R      &kp T      &kp Y &kp U  &kp I         &kp O   &kp P &kp Z
+   &kp Z &hm LGUI A &kp S &hm LCTRL D &kp F &kp G      &kp H &kp J  &hm RCTRL K    &kp L   &hm RGUI SCLN    &kp Z
+   &kp Z &hm LALT Z &kp X &kp C  &kp V      &kp B      &kp N &kp M  &kp CMMA      &kp DOT &hm RALT FSLH &kp Z
              &kp ESC  &hm LSFT SPC  &lt LOWER TAB      &lt RAISE BKSP &hm RSFT RET &lt SYS K_APP
                         >;
                 };
@@ -52,9 +52,9 @@
 // | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &kp Z   &kp AT       &kp DQT    &kp LPAR    &kp RPAR       &trans            &trans  &kp N7 &kp N8 &kp N9  &trans    &kp Z  
-   &kp Z   &hm LGUI COLON  &kp SQT    &kp LBKT    &hm LCTL RBKT  &kp UNDER         &trans  &kp N4 &kp N5 &kp N6  &trans    &kp Z  
-   &kp Z   &kp QMARK        &kp DLLR   &kp LBRC    &kp RBRC       &kp HASH          &trans  &kp N1 &kp N2 &kp N3  &trans    &kp Z  
+   &kp Z   &kp AT       &kp DQT    &kp LPAR    &kp RPAR       &kp AT               &trans  &kp N7 &kp N8 &kp N9  &trans    &kp Z  
+   &kp Z   &hm LGUI LS(P) &kp SQT    &kp LBKT    &hm LCTL RBKT  &kp UNDER         &trans  &kp N4 &kp N5 &kp N6  &trans    &kp Z  
+   &kp Z   &hm LALT QMARK  &kp DLLR   &kp LBRC    &kp RBRC       &kp HASH          &trans  &kp N1 &kp N2 &kp N3  &trans    &kp Z  
                                        &trans     &trans         &trans            &kp DEL  &kp N0 &kp DOT
                         >;
                 };
@@ -68,7 +68,7 @@
                         bindings = <
    &kp Z &kp BSLH  &kp EXCL  &kp TILDE &kp AMPS  &trans        &kp HOME  &kp PG_UP &kp PG_DN &kp END    &trans    &kp Z
    &kp Z &hm LGUI FSLH  &kp MINUS &hm LCTL EQL   &kp PLUS  &kp STAR      &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT  &trans    &kp Z
-   &kp Z &kp PRCT  &kp LT    &kp PIPE  &kp GT    &kp CRRT      &trans    &trans    &trans    &trans     &trans    &kp Z
+   &kp Z &hm LALT PRCT  &kp LT    &kp PIPE  &kp GT    &kp CRRT      &trans    &trans    &trans    &trans     &trans    &kp Z
                                     &trans &trans &kp TAB      &trans &trans &trans
                         >;
                 };
@@ -82,7 +82,7 @@
                         bindings = <
    &trans     &trans       &trans       &trans       &trans       &trans            &kp LA(LS(LC(N4)))    &kp F7   &kp F8     &kp F9  &kp F12    &trans
    &trans     &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4      &kp LS(LC(N4))    &kp F4   &kp F5     &kp F6  &kp F11    &trans
-   &trans     &bt BT_CLR   &trans       &out OUT_USB &out OUT_BLE &kp A            &trans    &kp F1   &kp F2     &kp F3  &kp F10    &trans
+   &trans     &bt BT_CLR   &trans       &out OUT_USB &out OUT_BLE &trans            &trans    &kp F1   &kp F2     &kp F3  &kp F10    &trans
                                         &trans       &trans       &trans            &trans    &trans   &trans
                         >;
                 };
